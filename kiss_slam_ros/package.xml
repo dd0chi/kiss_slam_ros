@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kiss_slam_ros</name>
+  <version>0.0.0</version>
+  <description>A simple ROS 1 wrapper package for KISS-SLAM</description>
+  <maintainer email="mail@nhewitt.me">Nathan Hewitt</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- 빌드 의존성 -->
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>tf</build_depend>
+
+  <!-- 실행 의존성 -->
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+
+  <export>
+    <build_type>catkin</build_type>
+  </export>
+</package>
